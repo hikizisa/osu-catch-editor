@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "osu_catch_editor.sln",
+    "projects": [
+      "osu_catch_editor.Game\\osu_catch_editor.Game.csproj",
+      "osu_catch_editor.Resources\\osu_catch_editor.Resources.csproj",
+      "osu_catch_editor.iOS\\osu_catch_editor.iOS.csproj"
+    ]
+  }
+}
