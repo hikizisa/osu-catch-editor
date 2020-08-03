@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "osuCatchEditor.sln",
+    "projects": [
+      "osuCatchEditor.Game\\osuCatchEditor.Game.csproj",
+      "osuCatchEditor.Resources\\osuCatchEditor.Resources.csproj",
+      "osuCatchEditor.iOS\\osuCatchEditor.iOS.csproj"
+    ]
+  }
+}

@@ -9,13 +9,13 @@
             "request": "launch",
             "program": "dotnet",
             "args": [
-                "${workspaceRoot}/osu_catch_editor.Game.Tests/bin/Debug/netcoreapp3.1/osu_catch_editor.Game.Tests.dll",
+                "${workspaceRoot}/osuCatchEditor.Game.Tests/bin/Debug/netcoreapp3.1/osuCatchEditor.Game.Tests.dll",
             ],
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "Build (Tests, Debug)",
             "linux": {
                 "env": {
-                    "LD_LIBRARY_PATH": "${workspaceRoot}/osu_catch_editor.Game.Tests/bin/Debug/netcoreapp3.1:${env:LD_LIBRARY_PATH}"
+                    "LD_LIBRARY_PATH": "${workspaceRoot}/osuCatchEditor.Game.Tests/bin/Debug/netcoreapp3.1:${env:LD_LIBRARY_PATH}"
                 }
             },
             "console": "internalConsole"
@@ -26,47 +26,47 @@
             "request": "launch",
             "program": "dotnet",
             "args": [
-                "${workspaceRoot}/osu_catch_editor.Game.Tests/bin/Release/netcoreapp3.1/osu_catch_editor.Game.Tests.dll",
+                "${workspaceRoot}/osuCatchEditor.Game.Tests/bin/Release/netcoreapp3.1/osuCatchEditor.Game.Tests.dll",
             ],
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "Build (Tests, Release)",
             "linux": {
                 "env": {
-                    "LD_LIBRARY_PATH": "${workspaceRoot}/osu_catch_editor.Game.Tests/bin/Release/netcoreapp3.1:${env:LD_LIBRARY_PATH}"
+                    "LD_LIBRARY_PATH": "${workspaceRoot}/osuCatchEditor.Game.Tests/bin/Release/netcoreapp3.1:${env:LD_LIBRARY_PATH}"
                 }
             },
             "console": "internalConsole"
         },
         {
-            "name": "osu_catch_editor (Debug)",
+            "name": "osuCatchEditor (Debug)",
             "type": "coreclr",
             "request": "launch",
             "program": "dotnet",
             "args": [
-                "${workspaceRoot}/osu_catch_editor.Desktop/bin/Debug/netcoreapp3.1/osu_catch_editor.dll",
+                "${workspaceRoot}/osuCatchEditor.Desktop/bin/Debug/netcoreapp3.1/osuCatchEditor.dll",
             ],
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "Build (Desktop, Debug)",
             "linux": {
                 "env": {
-                    "LD_LIBRARY_PATH": "${workspaceRoot}/osu_catch_editor.Desktop/bin/Debug/netcoreapp3.1:${env:LD_LIBRARY_PATH}"
+                    "LD_LIBRARY_PATH": "${workspaceRoot}/osuCatchEditor.Desktop/bin/Debug/netcoreapp3.1:${env:LD_LIBRARY_PATH}"
                 }
             },
             "console": "internalConsole"
         },
         {
-            "name": "osu_catch_editor (Release)",
+            "name": "osuCatchEditor (Release)",
             "type": "coreclr",
             "request": "launch",
             "program": "dotnet",
             "args": [
-                "${workspaceRoot}/osu_catch_editor.Desktop/bin/Debug/netcoreapp3.1/osu_catch_editor.dll",
+                "${workspaceRoot}/osuCatchEditor.Desktop/bin/Debug/netcoreapp3.1/osuCatchEditor.dll",
             ],
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "Build (Desktop, Release)",
             "linux": {
                 "env": {
-                    "LD_LIBRARY_PATH": "${workspaceRoot}/osu_catch_editor.Desktop/bin/Debug/netcoreapp3.1:${env:LD_LIBRARY_PATH}"
+                    "LD_LIBRARY_PATH": "${workspaceRoot}/osuCatchEditor.Desktop/bin/Debug/netcoreapp3.1:${env:LD_LIBRARY_PATH}"
                 }
             },
             "console": "internalConsole"

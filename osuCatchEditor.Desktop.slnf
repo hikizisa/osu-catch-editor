@@ -1,0 +1,11 @@
+﻿{
+  "solution": {
+    "path": "osuCatchEditor.sln",
+    "projects": [
+      "osuCatchEditor.Desktop\\osuCatchEditor.Desktop.csproj",
+      "osuCatchEditor.Game\\osuCatchEditor.Game.csproj",
+      "osuCatchEditor.Game.Tests\\osuCatchEditor.Game.Tests.csproj",
+      "osuCatchEditor.Resources\\osuCatchEditor.Resources.csproj"
+    ]
+  }
+}
